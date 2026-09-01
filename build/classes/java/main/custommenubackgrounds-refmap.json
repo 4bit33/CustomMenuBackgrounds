@@ -1,0 +1,34 @@
+{
+  "mappings": {
+    "com/cmb/custommenubackgrounds/mixin/MusicTrackerMixin": {
+      "tick": "Lnet/minecraft/class_1142;method_18669()V"
+    },
+    "com/cmb/custommenubackgrounds/mixin/PanoramaCancelMixin": {
+      "Lnet/minecraft/client/gui/DrawContext;fillGradient(IIIIII)V": "Lnet/minecraft/class_332;method_25296(IIIIII)V",
+      "render": "Lnet/minecraft/class_442;method_25394(Lnet/minecraft/class_332;IIF)V"
+    },
+    "com/cmb/custommenubackgrounds/mixin/TitleScreenMixin": {
+      "Lnet/minecraft/client/gui/RotatingCubeMapRenderer;render(Lnet/minecraft/client/gui/DrawContext;IIFF)V": "Lnet/minecraft/class_766;method_3317(Lnet/minecraft/class_332;IIFF)V",
+      "init": "Lnet/minecraft/class_442;method_25426()V",
+      "removed": "Lnet/minecraft/class_442;method_25432()V",
+      "render": "Lnet/minecraft/class_442;method_25394(Lnet/minecraft/class_332;IIF)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/cmb/custommenubackgrounds/mixin/MusicTrackerMixin": {
+        "tick": "Lnet/minecraft/class_1142;method_18669()V"
+      },
+      "com/cmb/custommenubackgrounds/mixin/PanoramaCancelMixin": {
+        "Lnet/minecraft/client/gui/DrawContext;fillGradient(IIIIII)V": "Lnet/minecraft/class_332;method_25296(IIIIII)V",
+        "render": "Lnet/minecraft/class_442;method_25394(Lnet/minecraft/class_332;IIF)V"
+      },
+      "com/cmb/custommenubackgrounds/mixin/TitleScreenMixin": {
+        "Lnet/minecraft/client/gui/RotatingCubeMapRenderer;render(Lnet/minecraft/client/gui/DrawContext;IIFF)V": "Lnet/minecraft/class_766;method_3317(Lnet/minecraft/class_332;IIFF)V",
+        "init": "Lnet/minecraft/class_442;method_25426()V",
+        "removed": "Lnet/minecraft/class_442;method_25432()V",
+        "render": "Lnet/minecraft/class_442;method_25394(Lnet/minecraft/class_332;IIF)V"
+      }
+    }
+  }
+}

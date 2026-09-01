@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "custommenubackgrounds",
+  "version": "1.0.0",
+  "name": "Custom Menu Backgrounds",
+  "description": "Fully customize the Minecraft main menu background: static images, GIFs, WebM/MP4 video, custom panoramas and custom menu music.",
+  "authors": [
+    "4bit33"
+  ],
+  "contact": {
+    "sources": "https://example.com/custommenubackgrounds"
+  },
+  "license": "MIT",
+  "icon": "assets/custommenubackgrounds/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.cmb.custommenubackgrounds.CustomMenuBackgroundsClient"
+    ],
+    "modmenu": [
+      "com.cmb.custommenubackgrounds.gui.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "custommenubackgrounds.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "fabric-api": "*",
+    "java": ">=21"
+  }
+}
