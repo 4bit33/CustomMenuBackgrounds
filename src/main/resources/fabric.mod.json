@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "custommenubackgrounds",
+  "id": "cui",
   "version": "${version}",
-  "name": "Custom Menu Backgrounds",
-  "description": "Fully customize the Minecraft main menu background: static images, GIFs, WebM/MP4 video, custom panoramas and custom menu music.",
+  "name": "CUI - CustomUI",
+  "description": "Visual UI customization framework for Minecraft — custom main-menu backgrounds (images, GIFs, video, panorama), music, and extensible per-screen UI editor. Ported to 1.21.11.",
   "authors": [
     "4bit33"
   ],
   "contact": {
-    "sources": "https://example.com/custommenubackgrounds"
+    "sources": "https://example.com/cui"
   },
   "license": "MIT",
-  "icon": "assets/custommenubackgrounds/icon.png",
+  "icon": "assets/cui/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.cmb.custommenubackgrounds.CustomMenuBackgroundsClient"
+      "com.cmb.cui.client.CUIClient"
     ],
     "modmenu": [
-      "com.cmb.custommenubackgrounds.gui.ModMenuIntegration"
+      "com.cmb.cui.gui.ModMenuIntegration"
     ]
   },
   "mixins": [
-    "custommenubackgrounds.mixins.json"
+    "cui.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.16.9",
-    "minecraft": "~1.21.1",
+    "minecraft": "~1.21.11",
     "fabric-api": "*",
     "java": ">=21"
   }
