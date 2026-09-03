@@ -1,6 +1,6 @@
 # CUI - CustomUI
 
-[English version](README.en.md)
+[English version](README.md)
 
 Fabric-мод для Minecraft Java Edition, який дозволяє повністю замінити фон
 головного меню: статичне зображення, GIF, відео (WebM/MP4), власну панораму
