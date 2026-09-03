@@ -33,5 +33,11 @@ jobs:
         with:
           tag_name: ${{ github.ref_name }}
           name: CUI ${{ github.ref_name }}
+          body: |
+            ## CUI ${{ github.ref_name }}
+
+            Fabric mod for custom main menu backgrounds.
+
+            ### What's changed
           files: build/libs/*.jar
           generate_release_notes: true
