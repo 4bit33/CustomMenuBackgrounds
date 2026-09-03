@@ -3,12 +3,12 @@
   "id": "cui",
   "version": "${version}",
   "name": "CUI - CustomUI",
-  "description": "Visual UI customization framework for Minecraft — custom main-menu backgrounds (images, GIFs, video, panorama), music, and extensible per-screen UI editor. Ported to 1.21.11.",
+  "description": "Visual UI customization framework for Minecraft — custom main-menu backgrounds (images, GIFs, video, panorama), music, and extensible per-screen UI editor.",
   "authors": [
     "4bit33"
   ],
   "contact": {
-    "sources": "https://example.com/cui"
+    "sources": "https://github.com/4bit33/cui"
   },
   "license": "MIT",
   "icon": "assets/cui/icon.png",
