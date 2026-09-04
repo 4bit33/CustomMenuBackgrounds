@@ -1,5 +1,5 @@
 # CUI - CustomUI
-![icon](src/main/resources/assets/cui/icon.png)
+![icon](src/main/resources/assets/cui/icon.jpg)
 
 [English version](README.md)
 
